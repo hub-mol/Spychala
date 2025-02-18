@@ -1,6 +1,6 @@
-import { gsap } from "gsap";
-import { Flip } from "gsap/Flip";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { gsap } from "gsap";
+// import { Flip } from "gsap/Flip";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(Flip, ScrollTrigger)
