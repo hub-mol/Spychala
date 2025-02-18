@@ -2,6 +2,8 @@
 // import { Flip } from "gsap/Flip";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+console.log('yay')
+
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(Flip, ScrollTrigger)
     const portfolioAnchors = document.querySelectorAll(".portfolio_anchor");
