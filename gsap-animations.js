@@ -2,7 +2,7 @@
 // import { Flip } from "gsap/Flip";
 // import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-console.log('yay')
+console.log('yay2')
 
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(Flip, ScrollTrigger)
